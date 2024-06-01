@@ -1,0 +1,460 @@
+html,
+body {
+  padding: 0;
+  /* font-family: "Inter" !important; */
+}
+/* color */
+.green {
+  color: #68a071;
+}
+.white {
+  color: white;
+}
+.grey {
+  color: #fbfbfb;
+}
+
+/* fontsize */
+p {
+  font-size: 2.5vw !important;
+  font-weight: 400 !important;
+  text-align: justify;
+}
+h1 {
+  font-size: 3vw!important;  
+  font-weight: 700 !important;
+}
+h2 {
+  font-size: 3.5vw !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 3vw !important;
+  font-weight: 400 !important;
+}
+h4 {
+  font-size: 5vw;
+  font-weight: 400 !important;
+}
+h5 {
+  font-size: calc(.6rem + 1vw)!important;
+  font-weight: 400 !important;
+}
+a {
+  color: black !important;
+  cursor: pointer;
+  text-decoration: none !important;
+  font-size: 2vw !important;
+  font-weight: 400;
+}
+.text {
+  justify-content: center !important;
+  align-items: center;
+  padding: 5%;
+}
+.just{
+  text-align: justify;
+}
+
+
+/* padding */
+
+header {
+  padding: 2%;
+}
+.main {
+  padding-top: 3%;
+  padding: 5%;
+}
+.about {
+  padding: 5%;
+}
+.number {
+  padding: 15% 0%;
+}
+.ourvis {
+  padding: 2%;
+}
+.drugs {
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+.bgpad {
+  padding:0 10%;
+  padding-bottom: 5%;
+}
+.choose {
+  margin-bottom: 10%;
+}
+.image{
+  padding-left: 10%;
+}
+.contact {
+  padding-bottom: 10%;
+}
+.business {
+  padding: 5%;
+}
+.why {
+  padding: 5%;
+}
+.photo img {
+ padding: 7%;
+}
+.name {
+   padding: 0 2%;
+   color: white;
+}
+.foot {
+  padding: 0% 23%;
+
+}
+
+
+
+
+/* ourvision lines */
+.line {
+  display: flex;
+  flex-direction: row;
+}
+.line1 {
+  background-color: #fff;
+  height: 20px;
+  width: 50%;
+  color: transparent;
+}
+.line2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 20px;
+  width: 50%;
+  color: transparent;
+}
+.line3 {
+  background-color: #68A071;
+  height: 20px;
+  width: 50%;
+  color: transparent;
+}
+.line4 {
+  background-color: rgba(104, 160, 113, 0.5);
+  height: 20px;
+  width: 50%;
+  color: transparent;
+}
+
+/* bgimg */
+.photo {
+  background-image: url(./farm/cetka.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-position: right top;
+  position: relative; 
+}
+.girlbg {
+  background-image: url(./farm/girl.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+.cell {
+  background-image: url(./farm/cell1.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-position: left top;
+  position: relative; 
+  padding: 0;
+
+}
+.drugs {
+  background-image: url("./farm/cetka.png");
+  background-size:40%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.miss {
+  position: relative;
+}
+.cheb img {
+  height: 12vw;
+  width: auto; 
+
+}
+
+/* bgcolor */
+.trust {
+  background-color: white;
+  position: absolute;
+  background-size: 40%;
+  margin-top: 10%;
+  margin-left: 45%;
+  margin-right: 20%;
+}
+.box {
+  background-color: white;
+  position: absolute;
+  background-size: 40%;
+  margin-top: 10%;
+  margin-left: 45%;
+  margin-right: 20%;
+  padding: 2%;
+}
+.boxx {
+
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
+.quality {
+  background-color: #7FAE86;
+  height: 35vw !important;
+  width: auto;
+  padding:10% 2%;
+  color: white;
+  text-align: justify;
+}
+.excellence {
+  background-color: #95BC9B;
+  height: 35vw !important;
+  width: auto;
+  padding:10% 2%;
+  color: white;
+  text-align: justify;
+}
+.innovation {
+  background-color: #C2D9C6;
+  height: 10vw !important;
+  width: 100%;
+  color: white;
+  text-align: justify;
+}
+.bggreen {
+  background-color: #68a071;
+  color: white;
+  height: 40vw !important;
+  width: auto;
+  background-image: url("./farm/cell1.png");
+  background-size:100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-right:15% ;
+  padding-left: 5%;
+ 
+  left: top;
+  text-align: justify;
+}
+.exp {
+  background-color: white;
+  height: 20vw;
+  width: auto;
+  
+}
+.pharm {
+  background-color :#C1D8C5;
+  height: 20vw;
+  width: 100%;
+}
+.budget {
+  background-color:#B4D0B9;
+  height: 20vw;
+  width: auto
+}
+.customer {
+  background-color:#A8C8AD;
+  height: 20vw;
+  width: auto
+}
+.fast {
+  background-color:#9BC0A1;
+  height: 20vw;
+  width: auto
+}
+.rel {
+  background-color:#8EB895;
+  height: 20vw;
+  width: auto
+}
+.choose {
+  background-color: #E8F0E9;
+  background-size: cover;
+}
+.footer {
+  background-color: #6E7B70;
+}
+.first-b {
+  background-color: #68A071;
+}
+.second-b {
+  background-color: rgba(104, 160, 113, 0.85);
+}
+.third-b {
+  background-color: rgba(104, 160, 113, 0.7);
+}
+.fourth-b {
+  background-color: #68a07140;
+}
+a:hover {
+  color: #68a071 !important;
+}
+.cheb::after {
+  content: "Trust";
+  border-radius: 5%;
+  background-color: white;
+  color: #68A071;
+  font-size: calc(1.0rem + 2.5vw)!important;
+
+  font-weight: 500;
+  margin-left: 46%;
+  padding: 2% 7%;
+}
+
+/* list */
+ul {
+  display: inline-block;
+}
+ul.menu li {
+  display: inline-block;
+  justify-content: center;
+  
+}
+li {
+  display: inline-block;
+  justify-content: center;
+  margin-right: 50px;
+
+}
+ul.links li > a {
+ padding-bottom: 3%;
+ color: #B6BCB7!important;
+ font-weight: 400;
+
+
+}
+.offcanvas {
+  width: 100%;
+  height: 100px !important;
+}
+
+.button {
+  background-color: #68a071;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: calc(.595rem + 1.4vw)!important;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.border {
+  font-size: 1.4vw;
+  font-weight: 400;
+  border-style: solid;
+  padding: 3%;
+  margin-left: 15%;
+  margin-right: 25%;
+  border-radius: 5%;
+}
+.icon {
+  background-color: #68a071;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+ 
+
+/* grid */
+.grid-parent {
+  display: grid;
+  grid-template-areas: 
+  'area-1 area-2 area-3 area-4'
+  '. area-5 area-6 .';
+  column-gap: 0;
+  row-gap: 0;
+}
+.grid-child-1 {
+  background-color: #F3F7F3;
+  grid-area: area-1;
+}
+.grid-child-2 {
+  background-color: #C1D8C5;
+  grid-area: area-2;
+}
+.grid-child-3 {
+  background-color: #B4D0B9;
+  grid-area: area-3;
+}
+.grid-child-4 {
+  background-color: #A8C8AD;
+  grid-area: area-4;
+}
+.grid-child-5 {
+  background-color: #9BC0A1;
+  grid-area: area-5;
+}
+.grid-child-6 {
+  background-color: #8EB895;
+  grid-area: area-6;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+  .grid-parent {
+      grid-template-areas: 
+      'area-1 area-2'
+      'area-3 area-4'
+      'area-5 area-6';
+  }
+}
+@media (max-width: 425px) {
+  .grid-parent {
+      grid-template-areas: 
+      'area-1'
+      'area-2'
+      'area-3'
+      'area-4'
+      'area-5'
+      'area-6';
+  }
+}
+@media (min-width: 426px) {
+  .mission {
+    display: none !important;
+  }
+
+}
+@media (max-width: 991px) {
+  .miss {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .bggreen
+   {
+    width: 100%;
+  }
+  .cheb::after{
+    display: none;
+  }
+  .cheb img {
+    width: 100%;
+    height: fit-content;
+    padding: 5%;
+  }
+}
+
+
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
